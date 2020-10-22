@@ -52,6 +52,7 @@ class CustomChat extends PureComponent<Props> {
         greeting_dialog_display={greetingDialogDisplay}
         greeting_dialog_delay={greetingDialogDelay}
         data-ref={dataRef}
+        ref={dataRef}
       >
         {children}
       </div>
